@@ -3,11 +3,24 @@
   'variables';
 
 // ******************************
-// GENERAL RULES
+// GENERAL STYLES
 
 // Content holder
 .container {
   max-width: 60rem;
   margin: auto;
   text-align: center;
+}
+
+// ******************************
+// HEADER STYLES
+.header {
+
+  &__title {
+    color: $violet;
+    font-family: $font;
+    font-size: $font-lg;
+    font-weight: bold;
+    padding: 2rem 0;
+  }
 }
