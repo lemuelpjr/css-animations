@@ -1,1 +1,1 @@
-A set of CSS3 animations.
+A collection of CSS3 animations I use for testing new interactive features.
