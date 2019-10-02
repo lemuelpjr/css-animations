@@ -10,6 +10,7 @@
   max-width: 60rem;
   margin: auto;
   text-align: center;
+  padding: $padding-sm;
 }
 
 // ******************************
@@ -22,5 +23,25 @@
     font-size: $font-lg;
     font-weight: bold;
     padding: 2rem 0;
+  }
+}
+
+// ******************************
+// BOXES STYLES
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+
+  .box {
+    background-color: $violet;
+    padding: $padding-lg;
+    display: inline-block;
+
+    &__item {
+      color: $white;
+      // font-family: inherit !important; FIX THIS ISSUE NEXT!!!
+      font-size: $font-lg;
+      text-decoration: none;
+    }
   }
 }
