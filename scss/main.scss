@@ -31,10 +31,12 @@
 .boxes {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
   .box {
     background-color: $violet;
     padding: $padding-lg;
+    margin: $margin-sm;
     display: inline-block;
 
     &__item {

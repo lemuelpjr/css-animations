@@ -38,10 +38,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
   .boxes .box {
     background-color: #7350a2;
     padding: 2.5rem;
+    margin: 1rem;
     display: inline-block; }
     .boxes .box__item {
       color: #fff;
